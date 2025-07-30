@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .container a {
+    flex: 0 0 calc(33.33% - 20px); /* Distribuye las imágenes en tres columnas */
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .button {
+    display: block;
+    margin: 20px auto;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+ 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button:active {
+    background-color: #0056b3;
+  }
+  .usuario {
+    text-align: center; /* Centra el contenido horizontalmente */
+  }
+  
+  .usuario img {
+    width: 80px; /* Ajusta el ancho de la imagen */
+    height: 80px; /* Ajusta la altura de la imagen */
+    border-radius: 50%; /* Hace que la imagen tenga bordes redondeados */
+    border: 2px solid #fff; /* Añade un borde blanco de 2px */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Añade una sombra ligera */
+  }
+  
+  .usuario span {
+    font-size: 18px; /* Tamaño de la fuente del nombre */
+    color: #333; /* Color del texto */
+    font-weight: bold; /* Fuente en negrita */
+  }
+  .header {
+
+    margin: 0 auto; /* Centra el encabezado horizontalmente */
+    height: 100px;
+  }
+  
+  

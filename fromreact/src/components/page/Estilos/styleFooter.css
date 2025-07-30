@@ -1,0 +1,58 @@
+footer {
+  background-image: linear-gradient(to bottom, #FF69B4, #8A2BE2);
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 150px;
+  }
+  
+  .links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .links ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    
+   
+  color: #fff;
+    
+   
+  font-size: 20px;
+  }
+  
+  .bottom-bar {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  }
+  .mapa {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,24 @@
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formulario-con-imagen {
+    display: flex;
+    align-items: center;
+  }
+  
+  .formulario_grupo_input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para el mensaje de error */
+  .mensajeError {
+    color: red;
+  }

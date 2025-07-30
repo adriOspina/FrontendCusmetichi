@@ -1,0 +1,78 @@
+.contenedor-principal {
+  padding: 50px;
+}
+
+.botones-titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px; /* Agrega un margen superior para separarlo del borde superior */
+}
+
+h2 {
+  margin: 0;
+}
+
+
+button:hover {
+  background-color: #FF69B4; /* Color azul más oscuro al hacer hover */
+}
+
+table {
+  width: 100%; /* Tamaño de la tabla al 100% del ancho */
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th, td {
+  text-align: left;
+}
+
+.button-editar {
+  background-color: #8a2be2; /* Color azul */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-editar:hover {
+  background-color: #a55de9; /* Color azul más oscuro al hacer hover */
+}
+
+/* ListadoProveedores.css */
+.custom-search-bar {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-search-bar:focus {
+  box-shadow: 1px 1px 10px #8a2be2;
+  
+  outline: none;
+}
+

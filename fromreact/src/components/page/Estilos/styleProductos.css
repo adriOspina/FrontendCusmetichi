@@ -1,0 +1,102 @@
+body {
+    background-color: #ffffff; 
+    background-position: center;    
+    background-repeat: no-repeat;    
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-top: 50px;
+    font-weight: 100;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container .card {
+    width: 100%;
+    max-width: 330px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    box-sizing: border-box;
+}
+
+.container .card:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 200px; /* Ajusta esta altura según tus necesidades */
+}
+
+.container .card h4 {
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.container .card p {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.container .card button {
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 40px;
+    }
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.alternative-image {
+    display: none;
+}
+
+.image-container:hover .original-image {
+    display: none;
+}
+
+.image-container:hover .alternative-image {
+    display: block;
+}
+
+.original-image {
+    transform: scale(1.3); /* Aumenta el tamaño de la imagen al 120% */
+    transition: transform 0.3s ease; /* Agrega una transición suave al cambio de tamaño */
+}
